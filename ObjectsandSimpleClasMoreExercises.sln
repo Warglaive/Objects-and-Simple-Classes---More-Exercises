@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Exercises", "01. Exerci
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Optimized Banking System", "02. Optimized Banking System\02. Optimized Banking System.csproj", "{3EB89ACB-B10A-42C2-8676-8D400EB0B9F7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Animals", "03. Animals\03. Animals.csproj", "{6DF77A91-1521-484E-92E5-04D13474CEC5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{3EB89ACB-B10A-42C2-8676-8D400EB0B9F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3EB89ACB-B10A-42C2-8676-8D400EB0B9F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3EB89ACB-B10A-42C2-8676-8D400EB0B9F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DF77A91-1521-484E-92E5-04D13474CEC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DF77A91-1521-484E-92E5-04D13474CEC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DF77A91-1521-484E-92E5-04D13474CEC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DF77A91-1521-484E-92E5-04D13474CEC5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
