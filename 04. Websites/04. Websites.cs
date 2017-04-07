@@ -29,23 +29,23 @@ namespace _04.Websites
                 result.Add(newWebsite);
                 input = Console.ReadLine();
             }
-            foreach (var item in result)
+            foreach (var hostDomainAndQuery in result)
             {
-                if (item.Queries.Count > 1)
+                if (hostDomainAndQuery.Queries.Count > 1)
                 {
-                    Console.Write($"https://www.{item.Host}.{item.Domain}/");
+                    Console.Write($"https://www.{hostDomainAndQuery.Host}.{hostDomainAndQuery.Domain}/");
                     for (int i = 0; i < 1; i++)
                     {
-                        Console.Write($"query?=[{item.Queries[i]}]");
-                        for (int j = i + 1; j < item.Queries.Count; j++)
+                        Console.Write($"query?=[{hostDomainAndQuery.Queries[i]}]");
+                        for (int j = i + 1; j < hostDomainAndQuery.Queries.Count; j++)
                         {
-                            Console.Write($"&[{item.Queries[j]}]");
+                            Console.Write($"&[{hostDomainAndQuery.Queries[j]}]");
                         }
                     }
                 }
                 else
                 {
-                    Console.WriteLine($"https://www.{item.Host}.{item.Domain}");
+                    Console.WriteLine($"https://www.{hostDomainAndQuery.Host}.{hostDomainAndQuery.Domain}");
                 }
                 Console.WriteLine();
             }
